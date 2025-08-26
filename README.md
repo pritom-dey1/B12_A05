@@ -43,15 +43,7 @@ It allows users to interact with hotline services (like Emergency Numbers) throu
 
 ---
 
- # 📌 Notes
 
-All functionalities are implemented using raw HTML, CSS, and JavaScript.
-
-No external frameworks or libraries used.
-
-Extra features added: toast notifications, timestamps in call history, and button feedback (Copy → Copied).
-
-Fully responsive design for mobile desktop.
 
 <h2>📘 Questions & Answers</h2>
 
@@ -105,3 +97,14 @@ document.body.appendChild(div);</code></pre>
     </ul>
   </div>
 
+
+
+ # 📌 Notes
+
+All functionalities are implemented using raw HTML, CSS, and JavaScript.
+
+No external frameworks or libraries used.
+
+Extra features added: toast notifications, timestamps in call history, and button feedback (Copy → Copied).
+
+Fully responsive design for mobile desktop.
