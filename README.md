@@ -43,7 +43,12 @@ It allows users to interact with hotline services (like Emergency Numbers) throu
 
 ---
 
-## 🚀 How to Run
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/ProgrammingHero1/B12-A5-Emergency-Hotline.git
+ # #📌 Notes
+
+All functionalities are implemented using raw HTML, CSS, and JavaScript.
+
+No external frameworks or libraries used.
+
+Extra features added: toast notifications, timestamps in call history, and button feedback (Copy → Copied).
+
+Fully responsive design for mobile desktop.
