@@ -29,8 +29,8 @@ body,html{
   gap: 5px;
 }
 .nav_left img{
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     object-fit: cover;
 }
 .nav_left h3{
@@ -116,7 +116,7 @@ background: radial-gradient(circle, rgba(1, 100, 69, 1) 0%, rgba(1, 51, 35, 1) 9
     max-width: 1300px;
     color: #fff;
     display: flex;
-    gap: 10px;
+    gap: 5px;
     flex-direction: column;
     align-items: center;
     text-align: center;
@@ -140,3 +140,152 @@ background: radial-gradient(circle, rgba(1, 100, 69, 1) 0%, rgba(1, 51, 35, 1) 9
     font-size:16px;
     font-weight: 400;
  }
+
+
+/* 
+main style 
+ */
+main{
+    padding: 30px 0;
+
+    width: 100%;
+    background-color: #f5fff6;
+}
+.make_call{
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.call_section{
+    width: 95%;
+    max-width: 1300px;
+    margin:  auto;
+    height: 100%;
+    display: flex;
+}
+.call_card{
+    width: 300px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+.call_history{
+    width: 25%;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ffffff;
+
+}
+.card_top img{
+    width: 30px;
+    object-fit: cover;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #ffe3e2;
+}
+.card_top i{
+font-size: 20px;
+}
+.card_top{
+    display: flex;
+    justify-content: space-between;
+}
+.call_card h3{
+    font-family: poppins;
+    font-weight: 600;
+    margin-top: 5px;
+    font-size: 16px;
+}
+.call_card p{
+        font-family: poppins;
+    font-weight: 400;
+    margin-top: 5px;
+    font-size: 14px;
+}
+.call_card span{
+    font-size: 20px;
+    font-family: poppins;
+    font-weight: 600;
+}
+.call_card h6{
+    font-family: poppins;
+    font-weight: 400;
+    background-color: #f2f2f2;
+    margin-top: 5px;
+    font-size: 12px;
+    padding: 3px 10px;
+    border-radius: 20px;
+    width: fit-content;
+}
+.all_button{
+    width: 100%;
+    gap: 5px;
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+.all_button button{
+    width: 50%;
+    padding: 5px 10px;
+        border: 1px solid #504f4f;
+    border-radius: 5px;
+}
+.copy{
+    font-size: 16px;
+    transition: all 0.3s ease;
+    background-color: transparent;
+
+}
+.copy:hover{
+    background-color: #525252bb;
+    color: #fff;
+}
+.call{
+    background-color: #00a63e;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    transition: all 0.3s ease;
+}
+.call:hover{
+    background-color: #004d1f;
+}
+.call i{
+   font-size: 18px;
+}
+.call_history_top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.call_his_left{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+.call_his_left i{
+    font-size: 20px;
+}
+.call_his_left h3{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: poppins;
+}
+.call_his_right{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+.call_his_right button{
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #00a63e;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+.call_his_right button:hover{
+    background-color: #004d1f;
+}
