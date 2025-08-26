@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    width: 100%;
+    height: 100%;
+}
+.flex{
+    display: flex;
+}
+.navbar{
+    width: 95%;
+    padding: 10px 0;
+    max-width: 1300px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.nav_left{
+  align-items: center;
+  gap: 5px;
+}
+.nav_left img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+.nav_left h3{
+    font-family: poppins;
+    line-height: 20px;
+    color: #006747;
+}
+.nav_right{
+    gap: 10px;
+  align-items: center;
+}
+.love_box{
+    background-color: #ecfff0;
+    align-items: center;
+    padding: 5px 20px;
+    border-radius: 30px;
+    gap: 3px;
+    justify-content: center;
+}
+.love_box img{
+    width: 25px;
+}
+.love_box span{
+    font-family: poppins;
+
+    font-size: 20px;
+}
+.coin_box{
+    background-color: #ecfff0;
+    align-items: center;
+    padding: 5px 20px;
+    border-radius: 30px;
+    gap: 5px;
+    justify-content: center;
+}
+.coin_box img{
+    width: 25px;
+}
+.coin_box span{
+    font-family: poppins;
+
+    font-size: 20px;
+}
+.copy_box{
+    background-color: #00a63e;
+    align-items: center;
+    padding: 5px 20px;
+    border-radius: 30px;
+    color: #fff;
+    gap: 5px;
+    justify-content: center;
+}
+
+.copy_box span{
+    font-family: poppins;
+
+    font-size: 20px;
+}
+.copy_box h3{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: poppins;
+}
