@@ -43,7 +43,7 @@ It allows users to interact with hotline services (like Emergency Numbers) throu
 
 ---
 
- # #📌 Notes
+ # 📌 Notes
 
 All functionalities are implemented using raw HTML, CSS, and JavaScript.
 
