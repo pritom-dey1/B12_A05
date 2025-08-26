@@ -289,3 +289,40 @@ font-size: 20px;
 .call_his_right button:hover{
     background-color: #004d1f;
 }
+ .ri-heart-line {
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+
+  .ri-heart-line.liked {
+    color: red;
+  }
+  .history_item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f9f9f9;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 6px rgba(0,0,0,0.08);
+  }
+
+  .his_left h4 {
+    font-size: 16px;
+    margin: 0;
+    font-weight: 600;
+    color: #333;
+  }
+
+  .his_left p {
+    margin: 2px 0 0;
+    font-size: 13px;
+    color: #666;
+  }
+
+  .his_right span {
+    font-size: 12px;
+    color: #444;
+    white-space: nowrap;
+  }
