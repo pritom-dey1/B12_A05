@@ -107,4 +107,4 @@ No external frameworks or libraries used.
 
 Extra features added: toast notifications, timestamps in call history, and button feedback (Copy → Copied).
 
-Fully responsive design for mobile desktop.
+Fully responsive design for mobile and desktop.
