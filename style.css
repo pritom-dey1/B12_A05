@@ -173,6 +173,7 @@ main{
 .call_history{
     width: 25%;
     padding: 20px;
+    height: fit-content;
     border-radius: 10px;
     background-color: #ffffff;
 
