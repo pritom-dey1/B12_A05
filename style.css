@@ -327,3 +327,37 @@ font-size: 20px;
     color: #444;
     white-space: nowrap;
   }
+
+
+
+  /* responsive css  */
+    @media (max-width: 768px) {
+        .call_section {
+            flex-direction: column;
+        }
+        .make_call {
+            width: 100%;
+            justify-content: center;
+        }
+        .call_history {
+            width: 100%;
+            margin-top: 20px;
+        }
+        .call_card {
+            width: 100%;
+            max-width: 400px;
+        }
+        .navbar {
+            flex-direction: column;
+            gap: 15px;
+            text-align: center;
+        }
+        .nav_right {
+            justify-content: center;
+        }
+        .banner_content h1 {
+            font-size: 24px;
+        }
+        .banner_content p {
+            font-size: 14px;
+        }
